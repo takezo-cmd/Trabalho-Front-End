@@ -1,0 +1,26 @@
+.banner{
+    background: url('../img/banner.jpg') center center;
+    background-size: cover;
+    height: 400px;
+}
+.banner h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.card img{
+    height: 220px;
+    object-fit: cover;
+}
+footer{
+    margin-top: 50px;
+}
+@media(max-width:768px){
+
+    .banner{
+        height: 250px;
+    }
+
+    .banner h1{
+        font-size: 2rem;
+    }
+}
